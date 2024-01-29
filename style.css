@@ -1,0 +1,22 @@
+table {
+			border-collapse: collapse;
+			margin: 0 auto;
+		}
+		td {
+			width: 30px;
+			height: 30px;
+			border: 1px solid black;
+			text-align: center;
+			vertical-align: middle;
+			font-size: 18px;
+			cursor: pointer;
+		}
+		.flag {
+			background-color: yellow;
+		}
+		.bomb {
+			background-color: red;
+		}
+		.empty {
+			background-color: white;
+		}
