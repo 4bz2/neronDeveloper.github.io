@@ -66,7 +66,6 @@ function otworzKomorki(x, y) {
 		komorka.classList.add("bomb");
 		alert("Przegrałeś!");
 		return;
-		nowaGra();
 	}
 	komorka.textContent = plansza[x][y].wartosc;
 	if (plansza[x][y].wartosc === 0) {
