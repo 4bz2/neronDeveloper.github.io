@@ -1,5 +1,5 @@
-const rozmiarPlanszy = 10;
-const liczbaMin = 15;
+const rozmiarPlanszy = 15;
+const liczbaMin = 20;
 
 let plansza = [];
 let flagi = 0;
