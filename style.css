@@ -1,30 +1,42 @@
+*{
+	background-color: black;
+	color: white;
+	font-family: Verdana;
+	text-align: center;
+}
+
 table {
 			border-collapse: collapse;
 			margin: 0 auto;
 		}
-		td {
-			width: 30px;
-			height: 30px;
-			border: 1px solid black;
-			text-align: center;
-			vertical-align: middle;
-			font-size: 20px;
-			cursor: pointer;
-		}
-		.flag {
-			background-color: yellow;
-		}
-		.bomb {
-			background-color: red;
-		}
-		.empty {
-			background-color: white;
+
+td {
+		width: 30px;
+		height: 30px;
+		border: 1px solid white;
+		text-align: center;
+		vertical-align: middle;
+		font-size: 20px;
+		cursor: pointer;
+	}
+.flag {
+		background-color: yellow;
+	}
+.bomb {
+		background-color: red;
+	}
+.empty {
+			background-color: green;
 		}
 
-test {
-
-	color:white;
-	
+button{
+	background-color: palevioletred;
+	border: 1;
+	border-color: peru;
+	height: 50px;
+	border-radius: 50%;
 }
 
-
+button:hover{
+	border-radius: 0;
+}
