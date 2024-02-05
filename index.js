@@ -1,5 +1,5 @@
-const rozmiarPlanszy = 15;
-const liczbaMin = 20;
+const rozmiarPlanszy = 10;
+const liczbaMin = 15;
 
 let plansza = [];
 let flagi = 0;
@@ -24,7 +24,7 @@ function nowaGra() {
 			komorka.onclick = () => otworzKomorki(i, j);
 			komorka.oncontextmenu = (e) => {
 				e.preventDefault();
-				ustawFlagę(i, j);
+				ustawFlage(i, j);
 			};
 		}
 	}
@@ -77,7 +77,7 @@ function otworzKomorki(x, y) {
 	}
 }
 
-function ustawFlagę(x, y) {
+function ustawFlage(x, y) {
 	if (plansza[x][y].flaga) {
 		plansza[x][y].flaga = false;
 		flagi--;
@@ -89,4 +89,4 @@ function ustawFlagę(x, y) {
 	}
 }
 
-nowaGra();
+// nowaGra();
