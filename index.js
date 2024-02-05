@@ -65,7 +65,7 @@ function otworzKomorki(x, y) {
 	if (plansza[x][y].wartosc === "BOMBA") {
 		komorka.classList.add("bomb");
 		alert("Przegrałeś!");
-		return;
+		break;
 	}
 	komorka.textContent = plansza[x][y].wartosc;
 	if (plansza[x][y].wartosc === 0) {
